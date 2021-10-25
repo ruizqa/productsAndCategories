@@ -39,7 +39,7 @@
 			<h1>New Category</h1>
 			<form:form action="/categories" method="post" modelAttribute="category" class="col">
 			    <div class="form-group my-2">
-			        <form:label path="name" class="form-label">First Name</form:label>
+			        <form:label path="name" class="form-label">Name</form:label>
 			    </div>
 			    <div class="form-group my-2">    
 			        <form:errors path="name"/>
